@@ -1,0 +1,4 @@
+IG_UI_EN = {
+    IGUI_MusicShare_EnterYouTubeURL = "Enter YouTube URL",
+    IGUI_MusicShare_EnterYouTubeURL_Invalid = "You must supply a YouTube URL.">
+}

@@ -1,0 +1,7 @@
+UI_EN = {
+    UI_MusicShare_title = "Music Player",
+    UI_MusicShare_noMusic = "No music is being played nearby.",
+    UI_MusicShare_playMusic = "Share Music",
+    UI_MusicShare_stopMusic = "Stop Music",
+    UI_MusicShare_listen = "Listen",
+}
