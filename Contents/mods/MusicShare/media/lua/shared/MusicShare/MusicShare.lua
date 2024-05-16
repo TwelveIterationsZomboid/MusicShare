@@ -17,7 +17,7 @@ end
 function MusicShare.FetchYouTubeMetadata(url)
     local id = MusicShare.ExtractYouTubeId(url)
     if not id then return nil end
-    local url = "https://zedspace.eiradir.net/pz/media/youtube/" .. id
+    local url = "https://music-share-server.twelveiterations.workers.dev/?v=" .. id -- TODO make this configurable
     local stream = getUrlInputStream(url)
     if not stream then return nil end
     local url = stream:readLine()
